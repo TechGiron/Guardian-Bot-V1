@@ -4,7 +4,7 @@ then
   git clone https://github.com/TechGiron/Guardian-Bot-V1 /Guardian-Bot-V1
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Guardian-Bot-V1
+  git clone $UPSTREAM_REPO /Guardian-Botapp
 fi
 cd /Guardian-Bot-V1
 pip3 install -U -r requirements.txt
